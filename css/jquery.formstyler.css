@@ -1,0 +1,22 @@
+.form .list{margin:35px 0 20px;}
+.form .list .item{position:relative;overflow:hidden;margin-bottom:18px;}
+.form .list .item label{position:absolute;left:0;top:0;width:100%;height:100%;text-align:center;}
+.form label{line-height:46px;transform:scale(1.244,1.244);display:inline-block;color:rgba(0, 0, 0, 1);}
+input[type="email"].styler,input[type="number"].styler,input[type="password"].styler,input[type="search"].styler,input[type="tel"].styler,input[type="text"].styler,input[type="url"].styler,textarea.styler{height:40px;border:1px solid #a2a2a2;padding:0 12px;width:100%;color:#636d63;font-size:20px;}
+input[type="search"].styler{-webkit-appearance:none;width:100%;}
+textarea.styler{overflow:hidden;height:210px;padding:12px;width:100%;display:block;}
+input[type="email"].styler:hover,input[type="number"].styler:hover,input[type="password"].styler:hover,input[type="search"].styler:hover,input[type="tel"].styler:hover,input[type="text"].styler:hover,input[type="url"].styler:hover,textarea.styler:hover{outline:none;}
+input[type="email"].styler:focus,input[type="number"].styler:focus,input[type="password"].styler:focus,input[type="search"].styler:focus,input[type="tel"].styler:focus,input[type="text"].styler:focus,input[type="url"].styler:focus,textarea.styler:focus{outline:3px solid #5fa8e6;border:1px solid #5fa8e6;}
+button.styler,input[type="button"].styler,input[type="submit"].styler,input[type="reset"].styler,a.button{overflow:visible;outline:none;background:#f8df08;color:#231f20;cursor:pointer;font-size:20px;line-height:46px;height:46px;padding:0 16px;margin:0;text-decoration:none;border:0;display:inline-block;text-align:center;text-decoration:none!Important;font-family:"Roboto";font-weight:100;}
+button.styler::-moz-focus-inner,input[type="button"].styler::-moz-focus-inner,input[type="submit"].styler::-moz-focus-inner,input[type="reset"].styler::-moz-focus-inner{}
+button.styler:after{content:'';}
+button.styler:hover,input[type="button"].styler:hover,input[type="submit"].styler:hover,input[type="reset"].styler:hover,a.button:hover{background:#fbf47e;color:#231f20;}
+.button2{width:100%;}
+.form .close{background:#bfc7bf!Important;}
+a.button3{height:39px;line-height:36px;padding:0 16px;background-color:rgba(41, 59, 63, 0);border:1px solid #3aaa35;border-radius:5px;color:#3aaa35;font-size:14px;}
+a.button3:hover{background-color:rgba(41, 59, 63, 0);}
+a.button:hover{text-decoration:none;}
+a.button4{background-color:rgba(41, 59, 63, 0);border:1px solid #3aaa35;color:#3aaa35;padding:0 8px;}
+a.button4:hover, a.button4.active{background-color:rgba(41, 59, 63, 0);border:1px solid #3aaa35;color:#3aaa35;}
+a.button6{background:none;color:#fff;height:50px;line-height:50px;text-transform:uppercase;font-size:18px;}
+a.button6:hover, a.button6.active{background-color:#ffffff;color:#2d8e7d;}
