@@ -51,7 +51,7 @@ IncludeTemplateLangFile(__FILE__);
                         <div class="col-md-8 col-md-offset-1">
                             <div class="phone">
                                 <?$APPLICATION->IncludeFile(SITE_DIR.'include/header/phone.php');?>
-                                <div class="sub"><?$APPLICATION->IncludeFile(SITE_DIR.'include/header/phone_sub.php');?></div>
+                                <!--noindex--><div class="sub"><?$APPLICATION->IncludeFile(SITE_DIR.'include/header/phone_sub.php');?></div><!--/noindex-->
                                 <div class="icon phone-header" title="Заказать обратный звонок"></div>                                
                             </div>
                         </div>                    
