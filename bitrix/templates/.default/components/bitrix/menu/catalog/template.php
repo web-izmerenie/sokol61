@@ -35,9 +35,9 @@ foreach($arResult as $arItem):
 
 	<?else:?>
                 <?if($arItem['DEPTH_LEVEL'] == 2 && $bVirtualParent){?>
-                    <li class="group"><a href="<?=$arItem["LINK"]?>" <?=($arItem['SELECTED'] ? 'class="active"' : NULL)?>><?=$arItem["TEXT"]?></a></li>		
+                    <li class="group"><a href="<?=$arItem["LINK"]?>" <?=($arItem['SELECTED'] ? 'class="active"' : NULL)?>><span><?=$arItem["TEXT"]?></span></a></li>		
                 <?}else{?>                	
-                    <li><a href="<?=$arItem["LINK"]?>" <?=($arItem['SELECTED'] ? 'class="active"' : NULL)?>><?=$arItem["TEXT"]?></a></li>		
+                    <li><a href="<?=$arItem["LINK"]?>" <?=($arItem['SELECTED'] ? 'class="active"' : NULL)?>><span><?=$arItem["TEXT"]?></span></a></li>		
                 <?}?>
 
 	<?endif?>

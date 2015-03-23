@@ -15,13 +15,15 @@ $(window).load(function() {
         directionNav: false,
         start: function(){
             $('#slider .flex-viewport').width('634px');
+			$('#slider .flex-viewport .item').width('600px');
+			$('#slider').css('overflow', 'visible');
         }
     });      
     $('#portfolio-slider').flexslider({
             animation: "slide",
             animationLoop: false,
             slideshow: false,
-            directionNav: false,
+            directionNav: true,
             controlNav: "thumbnails",
             start: function(){
                 $('#portfolio-slider .flex-control-thumbs li').prepend('<span class="overlay"></span>');
@@ -57,10 +59,10 @@ $(document)
         $('.docs-feadback .list').slideDown({
                 duration: 'fast',
                 complete: function(){ 
-                    $('.docs-feadback input[type=submit]:not(.active)').addClass('active');        
+                    $('.docs-feadback input[type=submit]:not(.active)').addClass('active');  					
                 },
                 start: function(){
-
+					$('.docs-contacts').css('border-color', '#fff');
                 }
         });  
         return false;

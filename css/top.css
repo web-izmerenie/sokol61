@@ -1,4 +1,4 @@
-.cd-top {
+.cd-top, .cd-top-indicator {
   display: none;  
   height: 50px;
   width: 50px;
@@ -16,6 +16,10 @@
   -moz-transition: opacity .3s 0s, visibility 0s .3s;
   transition: opacity .3s 0s, visibility 0s .3s;
   z-index:100;
+}
+.cd-top-indicator{
+	z-index:99;
+	display:block;
 }
 .cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
   -webkit-transition: opacity .3s 0s, visibility 0s 0s;

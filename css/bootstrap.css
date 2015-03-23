@@ -35,7 +35,7 @@ body .sokol61{font-family:Arial, sans-serif;font-size:15px;line-height:1.2;color
 .sokol61 td,.sokol61 th{padding:0;}
 .sokol61 table{border-collapse:collapse;width:100%;font-size:14px;}
 .sokol61 table tr{}
-.sokol61 table th{padding:12px 25px 12px;border-left:1px solid #fff;background:#d5dbdf;color:#231f20;font-weight:100;text-align:left;font-size:20px;font-family:"Roboto"}
+.sokol61 table th{padding:12px 25px 12px;border-left:1px solid #fff;background:#d5dbdf;color:#231f20;font-weight:100;text-align:left;font-size:20px;font-family:"robotoregular"}
 .sokol61 table th:first-child{border-left:1px solid #d5dbdf;}
 .sokol61 table th:last-child{border-right:1px solid #d5dbdf;}
 .sokol61 table td{padding:12px 25px 12px;border:1px solid #636d63;}

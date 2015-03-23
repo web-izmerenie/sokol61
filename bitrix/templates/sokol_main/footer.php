@@ -27,14 +27,15 @@ IncludeTemplateLangFile(__FILE__);
             </div>
         </footer>
         <a href="#top" class="cd-top">Top</a>
+		<div class="cd-top-indicator"></div>
         <script src="<?=SITE_DIR?>js/jquery.scrollTo-min.js"></script>
         <script src="<?=SITE_DIR?>js/jquery.formstyler.js"></script>
         <script src="<?=SITE_DIR?>js/jquery-ui.js"></script>
         <script src="<?=SITE_DIR?>js/jquery.flexslider.js"></script>
         <script src="<?=SITE_DIR?>js/jquery.fancybox.js"></script>
         <script src="<?=SITE_DIR?>js/jquery.form.min.js"></script>
-        <script src="<?=SITE_DIR?>js/top.js"></script>
-        <script src="<?=SITE_DIR?>js/app.js"></script>
+        <script src="<?=SITE_DIR?>js/top.js?v=2"></script>
+        <script src="<?=SITE_DIR?>js/app.js?v=2"></script>
 		<!-- Yandex.Metrika counter -->
 		<script type="text/javascript">
 		(function (d, w, c) {

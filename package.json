@@ -1,0 +1,19 @@
+{
+	"dependencies": {
+		"front-end-gulp-pattern": "^1",
+		"gulp-browserify": "~0.5",
+		"gulp-uglify": "^1",
+		"gulp-jshint": "^1"
+	},
+	
+	"scripts": {
+		"postinstall": "./deploy.sh"
+	},
+	
+	"gulp": {
+		"distclean": [
+		  "./front-end-gulp",
+		  "./node_modules"
+		]
+	}
+}

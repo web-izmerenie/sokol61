@@ -556,7 +556,7 @@
         }
       },
       resize: function() {
-        if (!slider.animating && slider.is(':visible')) {
+        /*if (!slider.animating && slider.is(':visible')) {
           if (!carousel) slider.doMath();
 
           if (fade) {
@@ -576,7 +576,7 @@
             slider.newSlides.width(slider.computedW);
             slider.setProps(slider.computedW, "setTotal");
           }
-        }
+        }*/
       },
       smoothHeight: function(dur) {
         if (!vertical || fade) {

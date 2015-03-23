@@ -9,13 +9,12 @@ IncludeTemplateLangFile(__FILE__);
         <title><?$APPLICATION->ShowTitle();?></title>	        
         <link rel="shortcut icon" href="/favicon.ico?v=1" rev="shortcut icon">
         <link rel="icon" href="/favicon.ico?v=1" rev="shortcut icon">
-        <?$APPLICATION->AddHeadString('<link href="'.SITE_DIR.'css/bootstrap.css" rel="stylesheet" />');?>
-        <?$APPLICATION->AddHeadString('<link href="'.SITE_DIR.'css/font.css" rel="stylesheet" type="text/css" charset="utf-8" />');?>
-        <?$APPLICATION->AddHeadString('<link href="'.SITE_DIR.'css/style.css" rel="stylesheet" />');?>
-        <?$APPLICATION->AddHeadString('<link href="'.SITE_DIR.'css/jquery.formstyler.css" rel="stylesheet" />');?>
-        <?$APPLICATION->AddHeadString('<link href="'.SITE_DIR.'css/flexslider.css" rel="stylesheet" />');?>
-        <?$APPLICATION->AddHeadString('<link href="'.SITE_DIR.'css/jquery.fancybox.css" rel="stylesheet" />');?>
-        <?$APPLICATION->AddHeadString('<link href="'.SITE_DIR.'css/top.css" rel="stylesheet" />');?>
+        <?$APPLICATION->AddHeadString('<link href="'.SITE_DIR.'css/bootstrap.css?v=2" rel="stylesheet" />');?>
+        <?$APPLICATION->AddHeadString('<link href="'.SITE_DIR.'css/style.css?v=2" rel="stylesheet" />');?>
+        <?$APPLICATION->AddHeadString('<link href="'.SITE_DIR.'css/jquery.formstyler.css?v=2" rel="stylesheet" />');?>
+        <?$APPLICATION->AddHeadString('<link href="'.SITE_DIR.'css/flexslider.css?v=2" rel="stylesheet" />');?>
+        <?$APPLICATION->AddHeadString('<link href="'.SITE_DIR.'css/jquery.fancybox.css?v=2" rel="stylesheet" />');?>
+        <?$APPLICATION->AddHeadString('<link href="'.SITE_DIR.'css/top.css?v=2" rel="stylesheet" />');?>
         <script src="<?=SITE_DIR?>js/jquery-1.9.1.min.js"></script>
     </head>    
     <body>
