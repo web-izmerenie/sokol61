@@ -34,7 +34,7 @@ if(!empty($arResult['ITEMS'])){
             <div id="catalog-slider">
                 <ul class="slides">
                     <?foreach($arData['PHOTO'] as $key=>$arPhoto){?>
-                        <li><img src="<?=$arPhoto['DETAIL_PICTURE']['src']?>" alt="" /><div class="title-wrapper"><div class="title"><?=$arPhoto['DESCRIPTION']?></div></div></li>
+                        <li><img src="<?=$arPhoto['DETAIL_PICTURE']['src']?>" title="<?=$arPhoto['DESCRIPTION']?>" /><div class="title-wrapper"><div class="title"><?=$arPhoto['DESCRIPTION']?></div></div></li>
                     <?}?>                    
                 </ul>
             </div> 

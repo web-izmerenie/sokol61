@@ -24,7 +24,7 @@ $this->setFrameMode(true);
                 $arData['PREVIEW_PICTURE'] = CFile::ResizeImageGet($arItem['PREVIEW_PICTURE']['ID'], array('width'=>118, 'height'=>52), BX_RESIZE_IMAGE_EXACT);
             }
             ?>
-            <div class="item"><img src="<?=$arData['PREVIEW_PICTURE']['src']?>" alt="<?=$arData['NAME']?>" /></div>
+            <div class="item"><img src="<?=$arData['PREVIEW_PICTURE']['src']?>" title="<?=$arData['NAME']?>" /></div>
     <?endforeach;?>                                 
     <div class="clearfix"></div>
 </div>

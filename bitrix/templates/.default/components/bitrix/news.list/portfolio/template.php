@@ -29,7 +29,7 @@ $this->setFrameMode(true);
                 }
                 $arData['DETAIL_PICTURE'] = CFile::ResizeImageGet($arItem['DETAIL_PICTURE']['ID'], array('width'=>642, 'height'=>300), BX_RESIZE_IMAGE_EXACT);
                 ?>
-                <li data-thumb="<?=$arData['PREVIEW_PICTURE']['src']?>"><img src="<?=$arData['DETAIL_PICTURE']['src']?>" alt="" /><div class="title-wrapper"><div class="title"><?=$arData['NAME']?></div></div></li>
+                <li data-thumb="<?=$arData['PREVIEW_PICTURE']['src']?>"><img src="<?=$arData['DETAIL_PICTURE']['src']?>" title="<?=$arItem['DETAIL_PICTURE']['TITLE'];?>" /><div class="title-wrapper"><div class="title"><?=$arData['NAME']?></div></div></li>
         <?endforeach;?>
         </ul>
     </div>                              

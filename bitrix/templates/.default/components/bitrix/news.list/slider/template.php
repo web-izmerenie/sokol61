@@ -30,7 +30,7 @@ $this->setFrameMode(true);
                 }
                 ?>
                 <div class="item">
-                    <div class="photo"><img src="<?=$arData['PREVIEW_PICTURE']['src']?>" alt="<?=$arData['NAME']?>" /></div>
+                    <div class="photo"><img src="<?=$arData['PREVIEW_PICTURE']['src']?>" title="<?=$arData['NAME']?>" /></div>
                 </div>                                
             <?endforeach;?>            
         </div> 

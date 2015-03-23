@@ -33,7 +33,7 @@ $this->setFrameMode(true);
                     <div class="col-md-3">
                         <div class="item">
                             <a href="<?=$arData['DETAIL_PAGE_URL']?>">
-                                <div class="preview"><img src="<?=$arData['PREVIEW_PICTURE']['src']?>" alt="<?=$arData['NAME']?>" /></div>
+                                <div class="preview"><img src="<?=$arData['PREVIEW_PICTURE']['src']?>" title="<?=$arItem['PREVIEW_PICTURE']['TITLE'];?>" /></div>
                                 <div class="name"><?=$arData['NAME']?></div>
                             </a>
                         </div>                                 
